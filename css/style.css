@@ -12,9 +12,47 @@ h1 {
   font-size: 100px;
   color: white;
 }
+
 .container {
-  width: 800px;
-  height: 800px;
-  background-color: red;
+  width: 80%;
+  height: 80%;
+  background-color: #ADD8E6;
+  margin:0 auto;
+  text-align: center;
+}
+.box {
+  background-color: white;
+  background-image: url("../img/pattern.png");
+  background-repeat: repeat;
+  background-size: contain;
+  width:20% ;
+  height:300px;
+  border-radius: 20px;
+  display:inline-block;
+  text-align: center;
   margin: auto;
+
+}
+.box-special  {
+  background-image: url("../img/noun_air_balloon_3134741.png");
+  background-repeat: no-repeat;
+
+}
+.row {
+  margin-bottom: 10px;
+
+
+}
+.box:hover {
+  background-image: url('../img/noun_air_balloon_3134741.png');
+  background-repeat: no-repeat;
+}
+.box2:hover {
+  background-image: url('../img/noun_Bicycle_3134821.png');
+  background-repeat: no-repeat;
+}
+.box3:hover {
+  background-image: url('../img/noun_Cruise_Ship_3134824.png');
+  background-repeat: no-repeat;
+
 }
