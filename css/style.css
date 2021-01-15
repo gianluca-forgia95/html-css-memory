@@ -11,6 +11,7 @@ h1 {
   font-family: 'Nerko One', cursive;
   font-size: 100px;
   color: white;
+  text-shadow: 2px 2px 4px #000000;
 }
 
 .container {
@@ -32,10 +33,12 @@ h1 {
   text-align: center;
   margin: auto;
 
+
 }
 .box-special  {
   background-image: url("../img/noun_air_balloon_3134741.png");
   background-repeat: no-repeat;
+
 
 }
 .row {
@@ -55,4 +58,32 @@ h1 {
   background-image: url('../img/noun_Cruise_Ship_3134824.png');
   background-repeat: no-repeat;
 
+}
+.box4:hover {
+  background-image: url('../img/noun_Submarine_3134738.svg');
+  background-repeat: no-repeat;
+
+}
+.box5:hover {
+  background-image: url('../img/noun_Tractor_3134797.svg');
+  background-repeat: no-repeat;
+
+}
+.box6:hover {
+  background-image: url('../img/noun_Tram_3134750.png');
+  background-repeat: no-repeat;
+
+}
+h3 {
+text-align: center;
+margin-bottom: 0;
+margin-top: 100%;
+
+}
+h2 {
+  font-family: 'Nerko One', cursive;
+}
+footer {
+  text-align: center;
+  text-shadow: 2px 2px 4px #000000;
 }
